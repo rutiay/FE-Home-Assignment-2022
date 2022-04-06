@@ -15,12 +15,12 @@
   width: 70%;
 }
 
-.TagListSearch{
+.TagListSearch {
   text-align: center;
 }
 
-.TagListSearch p{
-  text-decoration:underline;
+.TagListSearch p {
+  text-decoration: underline;
 }
 
 .TagsList {
@@ -34,7 +34,7 @@
   overflow: auto;
 }
 
-.TagListInput{
+.TagListInput {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -55,7 +55,30 @@
   cursor: pointer;
 }
 
-.TagsListForm button{ 
+.TagsListForm button {
   margin-left: 45%;
 }
 
+@media screen and (max-width: 426px) {
+  .TagsList {
+    margin: 5px;
+  }
+
+  .TagsListForm button {
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .TagsList {
+    max-height: 50%;
+  }
+
+  .TagsList li {
+    font-size: 10px;
+  }
+
+  .TagsListForm button {
+    margin-left: 25%;
+  }
+}

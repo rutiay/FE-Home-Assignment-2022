@@ -37,3 +37,9 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+@media screen and (max-width:426px) {
+  .unassignedPhotoContainer{
+   width: 47%;
+  }
+}
